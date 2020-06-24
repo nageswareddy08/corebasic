@@ -8,6 +8,7 @@ public class HondaBike implements BikeInterface {
 
     public static void main(String[] args) {
         HondaBike hondaBike = new HondaBike();
+
         System.out.println(hondaBike.bikeModel());
     }
 }
