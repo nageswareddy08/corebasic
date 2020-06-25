@@ -21,6 +21,7 @@ public class ArrayExample {
 
     public static void main(String[] args) {
         List<Student> studentList = getStudentList();
+        System.out.println(studentList);
         for (Student s : studentList) {
             System.out.println(s.getId());
             System.out.println(s.getName());
