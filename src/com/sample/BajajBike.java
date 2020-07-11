@@ -5,6 +5,7 @@ public class BajajBike implements BikeInterface {
     public String bikeModel() {
         return "Bajaj_301";
     }
+    //adding comments
 
     public static void main(String[] args) {
         BajajBike bajajBike = new BajajBike();
